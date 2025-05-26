@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m_EWY_-E_E-pjfu89DYCrw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="wikipedia.org" CVScreenId="409b1459-e9fd-419f-956a-59c6b8c15d42" CvElementArea="1211, 926, 87, 68" CvType="Button" DesignTimeRectangle="1214, 927, 83, 66" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="a9f6198b-b08b-447f-b004-c58f9f34f1f0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Wikipedia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="1dcc6f69063506f31739b00c4e154380.png" xmlns="">0VCtFdJJgUUiW-0Kt0-AS9w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

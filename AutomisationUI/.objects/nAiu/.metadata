@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome BBC News - Breaking news, video and the latest top stories from the U.S. and aro",
+  "Type": "App",
+  "Id": "nAiuJXAPg0m9A0-_CxrNAA",
+  "Reference": "a_CJ5tDaqkqqttVxKlDQIw/nAiuJXAPg0m9A0-_CxrNAA",
+  "Created": "2025-05-26T10:06:51.2201084Z",
+  "Updated": "2025-05-26T10:06:51.2201084Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

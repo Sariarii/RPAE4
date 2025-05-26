@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Everyone is emotional, …",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "x-YLRZSqnEac5iapExHS7A",
+  "Reference": "a_CJ5tDaqkqqttVxKlDQIw/x-YLRZSqnEac5iapExHS7A",
+  "ParentRef": "a_CJ5tDaqkqqttVxKlDQIw/omQbpsjTMkmK-ivBSdKd7w",
+  "Created": "2025-05-26T10:08:14.2721996Z",
+  "Updated": "2025-05-26T10:08:14.2721996Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

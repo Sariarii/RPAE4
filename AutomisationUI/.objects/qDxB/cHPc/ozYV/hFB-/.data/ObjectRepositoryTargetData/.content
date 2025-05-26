@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="begVQpcuWE6xNBOxBmhXUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="wikipedia.org" CVScreenId="409b1459-e9fd-419f-956a-59c6b8c15d42" CvElementArea="622, 927, 592, 66" CvType="InputBox" DesignTimeRectangle="622, 927, 592, 66" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='searchInput' tag='INPUT' type='search' class='' aaname='Search Wikipedia' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="550ac420-9b94-4c5f-9ed6-02dc45f27d0a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Wikipedia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="409b1459-e9fd-419f-956a-59c6b8c15d42" CvTextArea="1137, 951, 24, 19" CvTextArgument="FR" CvType="Text" DesignTimeRectangle="1126, 942, 165, 36" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='searchLanguage' tag='SELECT' /&gt;" Guid="083532f5-c47b-4ec9-96c6-408d51db08c7" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8125405383e9bff1948f12361d6f1837.png" xmlns="">0dMcnYjs69ESMUYrtPK3iLA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

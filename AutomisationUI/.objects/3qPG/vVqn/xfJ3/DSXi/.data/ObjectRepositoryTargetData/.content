@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5rxTO9oFHE-hiPKrkS624g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="newtab" DesignTimeRectangle="400, 663, 1119, 72" ElementType="DropDown" FullSelectorArgument="&lt;ctrl name='Nouvel onglet' role='document' /&gt;&lt;ctrl name='Effectuez une recherche sur Google ou saisissez une URL' role='combo box' /&gt;" Guid="63a814c9-8a6f-4c17-bb18-c0c7de75e155" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Nouvel onglet - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="d6fbcbf06f8ab10d727d1b0486ea0ac2.png" xmlns="">0hnLkkYfeC0yUqG9Pr0QTOQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

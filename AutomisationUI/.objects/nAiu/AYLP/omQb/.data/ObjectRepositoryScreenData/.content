@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="9BDgqwYKv0y_Y5_yzLAjeQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 1942, 1030" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABlSURBVDhP7Y/BCQAhDATTX2rQj0VYRjqwAEsMwh4bTh/3O/TpwkKySQYi2JR8g7+6gBcwxoCZIecc7r2jtYaUUpg1sznnLm8WwN2hqhCRcK0VpZTVs2Y2e+7y5hxg+4UdXcABwAOEH51alkIu6QAAAABJRU5ErkJggg==" Selector="&lt;html app='chrome.exe' htmlwindowname='33515' title='BBC News - Breaking news, video and the latest top stories from the U.S. and around the world' /&gt;" Url="https://www.bbc.com/news" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="0229a639b397d042eea84a1642555096.jpg" xmlns="">0EAqeRFP4NEmgRFi_E_jCHQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "combo box Effectuez une…",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "DSXiA96zTUSMOP7OdOL7TQ",
+  "Reference": "a_CJ5tDaqkqqttVxKlDQIw/DSXiA96zTUSMOP7OdOL7TQ",
+  "ParentRef": "a_CJ5tDaqkqqttVxKlDQIw/xfJ3AnjuV0aJt2C9zNyZVg",
+  "Created": "2025-05-26T09:52:00.8408715Z",
+  "Updated": "2025-05-26T09:52:00.8408715Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

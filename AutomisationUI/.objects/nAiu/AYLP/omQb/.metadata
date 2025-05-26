@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome BBC News - Breaking news, video and th",
+  "Type": "Screen",
+  "Id": "omQbpsjTMkmK-ivBSdKd7w",
+  "Reference": "a_CJ5tDaqkqqttVxKlDQIw/omQbpsjTMkmK-ivBSdKd7w",
+  "ParentRef": "a_CJ5tDaqkqqttVxKlDQIw/AYLPWAxrBE-pGuC-cASTWQ",
+  "Created": "2025-05-26T10:06:51.2705208Z",
+  "Updated": "2025-05-26T10:06:51.2705208Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

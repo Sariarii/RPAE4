@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="8lGhi8jmu0OANRf5iCJkgg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 1942, 1030" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADdSURBVDhPpZMBDYQwDEWZCiQgAgVIQQIGcDALGJiNGcAAMtjl7e6TboRLAJIG1nWvv5+saX7Pvu/pTujco8MFpE7ejfeAGGPq+x45yXufk8MwHOtt2/I+wfeyLKlt21yzrutXARvOuRRCyADWXdcVQHLqCuxQoA+K7IY6AZ3nucgLXAAYBdm8lUMFobUa2XVhIpu2YBzHrMI2mabpGoBcvMAcAQEgW0DrxQlAIJkuwJiV+clxEEBdfwLQDRUaRX8Ig60/lwAC2dZpOtfm/QXIAxv17AfgzX14dSN17gNzNVPv1Lf+SwAAAABJRU5ErkJggg==" Selector="&lt;html app='chrome.exe' title='Wikipedia' /&gt;" Url="https://www.wikipedia.org/" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="0f259f9e63123772dfc1fa31df1157b7.jpg" xmlns="">0SGbYcWC4UkW6aRJNyd5_8Q</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

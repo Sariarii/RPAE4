@@ -1,0 +1,279 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="668,2591.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Google" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,826.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="e05e76b7-6c18-4b35-b5e1-8e2aa5872e2f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="450,575.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'TEXTAREA APjFqb'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="e05e76b7-6c18-4b35-b5e1-8e2aa5872e2f" Text="UiPath" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="google.fr" CVScreenId="e680c85e-59ad-4f13-90bf-ddafe298259a" ContentHash="Nc-8ERkiz0OJDTUtPdcdfg" CvElementArea="528, 483, 882, 78" CvType="InputBox" DesignTimeRectangle="605, 487, 665, 69" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' /&gt;" Guid="13b9ce4f-5db5-4a7d-b24a-fe3d62dfc3e2" InformativeScreenshot="c0f7115b582c40afc27618d1342707a8.png" Reference="a_CJ5tDaqkqqttVxKlDQIw/95CdFZ198E-7R9rESu6U7w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Recherche Google'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e05e76b7-6c18-4b35-b5e1-8e2aa5872e2f" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="google.fr" CVScreenId="e680c85e-59ad-4f13-90bf-ddafe298259a" ContentHash="BYkmaOp03ES3IErw3SzcPg" CvElementArea="744, 598, 230, 59" CvTextArea="770, 617, 177, 22" CvTextArgument="Recherche Google" CvType="Button" DesignTimeRectangle="747, 601, 225, 54" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;center&amp;gt;input' tag='INPUT' /&gt;" Guid="134f10aa-d710-4c39-881c-5fafcb9f16bc" InformativeScreenshot="1ec3287d5a415cac1f5846bfff8254ad.png" Reference="a_CJ5tDaqkqqttVxKlDQIw/JaoWiGZ1QEK7fIPd8ggBDg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" ContentHash="zNBUCzga_0qYdAtZlqP4sQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxEAAAsRAX9kX5EAAATcSURBVFhHxZd5bJNlHMcZTNdjZbJANhBPMiMOs5GIRkKUQ3YwHOeYIoFxT6IyIUaNSPiHcSxqFGQoiAuwGFBgU45sXXeUsTlGO3RAWIIwyCJBjTsowrb2/ZjnrX3XPm83SsDwSb5/tP09v9+3z/30A/qFqERgHVBJ74jfRIyIldsHle6LIMoCTsuVQkC0EW3lfCEbePw2/zZURA6RS87fp4HpQJuc6S4QuUROuU5QA6LbgnPiOGzeAPMyIWk8TBaaCJMnwbw3UPI2o9TUyq380Q2JXFy41NPogEWzIG2ct3DyeEia4C2eNBmSUiA5DSU1Hc+UGbgXrUD59YycxUdAT/gXF+Ok7/b9G2Duc5A+1qsUYWACJInikyA5GVLSIHUaSup0PFMzcKfPVeXZsVvOJhA1tDnhb0A/4Qrfh+x4r4HZL9zewJSZgQZWfgCuG3JWgagVYEA/7iVvQ+5wWPMEZD8LC0ZD5hjvMKS+BEkvew2kJKOkiu6fhidtlmagj+I+1PngMxC4zq8Vwz4L5A2DLbGwJg4WJ8LSBHhzBliPgut6T7zLBVYbnqxleKbOCaW4QNRUDYhdK5CqOK+BXdE9BnKegV1rAgvLuFwohftDKe4jURgQW2cPf/8ItQawmeBIJByIgq+HwHfLA8LuEev0k+/iUmgwQb0Jys1QaoZDw6FTv0DuAZXCQCDnRvYYqDXBcROce0+O0qi/3Iua4VSzosnR7OFqqyI3VydgAEqDAeW0CRrM4DSDwwztdjlMIzG3F61XdNpuD8lABIrogdMW1YDSEAmdzXKYhq5wMAkDuYRmwON8QDMgiqvqvCyHaeiK9aH8IB2pN+AYgOJ8ELfTSKfTyD9OA10dVXKYhkickOshIdf9nzwk5op/7NOdGmgcgdsRTtupcFyOCK7Uh/PnlVVymEa+XSHf7vGT+KyQ+mXoBgKWYfelLG6d6q8auFYfrhpwOgbT7W71D+uTjpsw7hN9L4jVIaEuw4CNqKv1EC0nw2isC+OXuv5Yf+7PNzURFJ3P9A/rk89qXDy96QZxeR3Eb7zFqA1dxG/slMME6kak24qdDY9RVNuPY7VhFNaEsf6EkdXV0exsyuF6d4ccHsC2My0M2XaeoVsuEbP1N5789C9GbrrJh0e65FCBuhXrDqP29grVQEFNGJ+fGEBO9UDm22N5tWoEybUz+f5qCW3dLv8mFP9+gVfKj2IoPMDAnSeJ3t6oGYjLa6elTbcEtcNISHccV1zMYW11BCuPRzLd/jATq55iTOVoHrWlEGNLJ9qWgcW6kKHlKzGWvIXh8EcYDmzF8EM+xj2Hify2gugdJ4nZeoG1VUHnT8BxrJuMgr1Ny5hpj+XFqnier0wgrnw8sbbZDLZlMKhsHlFlCzGXZhNZuhzzsVUYD+VhLNqEcd8eLAU2TLtLGHvwrJxWoLuQCAW9kn3R9I5qIKFiTI+Bstc0AxbrEs2A6aePNQPGwoPMqWigrdMtp+z1SiYU9FJa1+pgXM3rDLOlMahsLg+pxRcQVZaFpXQJFutiLCUriDy6GnPxemKKCthyvklO46PXS6lPuvng48gfdWSf/YpR1e8SVTZfNTHQupAoaxaPlOeQ6Shgb0s9bV235KY+bnst9+8J3XDcBXf0MPHpvj7N/HXfHqey/pfn+b9CSGaGdBXBYQAAAABJRU5ErkJggg==" InformativeScreenshot="b71c3aad14ffec8210d465eece16d210.jpg" Reference="a_CJ5tDaqkqqttVxKlDQIw/aIvhqNXaFEawH8LffpNyBQ" Selector="&lt;html app='chrome.exe' title='Google' /&gt;" Url="https://www.google.fr/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <Sequence sap:VirtualizedContainerService.HintSize="518,1051.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_6">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard DisplayName="Browser(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,959.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="9ece5c5f-6b4f-42b7-8c80-ff2237400bd8">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="450,717.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'INPUT  searchInput'" sap:VirtualizedContainerService.HintSize="416,139.33333333333334" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_2">
+                <ui:WaitUiElementAppear.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="87ecdf36-d553-499b-a529-206d51a693de" InformativeScreenshot="b812c62536c1f4b87709d64530873749" Selector="&lt;webctrl id='searchInput' tag='INPUT' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:WaitUiElementAppear.Target>
+              </ui:WaitUiElementAppear>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT searchInput'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="9ece5c5f-6b4f-42b7-8c80-ff2237400bd8" Text="Automatisation robotisée des processus" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="wikipedia.org" CVScreenId="409b1459-e9fd-419f-956a-59c6b8c15d42" ContentHash="begVQpcuWE6xNBOxBmhXUg" CvElementArea="622, 927, 592, 66" CvType="InputBox" DesignTimeRectangle="622, 927, 592, 66" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='searchInput' tag='INPUT' type='search' class='' aaname='Search Wikipedia' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="550ac420-9b94-4c5f-9ed6-02dc45f27d0a" InformativeScreenshot="8125405383e9bff1948f12361d6f1837.png" Reference="a_CJ5tDaqkqqttVxKlDQIw/hFB-VZ8OskKRWE583RIvgQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Wikipedia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="409b1459-e9fd-419f-956a-59c6b8c15d42" CvTextArea="1137, 951, 24, 19" CvTextArgument="FR" CvType="Text" DesignTimeRectangle="1126, 942, 165, 36" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='searchLanguage' tag='SELECT' /&gt;" Guid="083532f5-c47b-4ec9-96c6-408d51db08c7" SearchSteps="Selector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,222.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9ece5c5f-6b4f-42b7-8c80-ff2237400bd8" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="wikipedia.org" CVScreenId="409b1459-e9fd-419f-956a-59c6b8c15d42" ContentHash="m_EWY_-E_E-pjfu89DYCrw" CvElementArea="1211, 926, 87, 68" CvType="Button" DesignTimeRectangle="1214, 927, 83, 66" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="a9f6198b-b08b-447f-b004-c58f9f34f1f0" InformativeScreenshot="1dcc6f69063506f31739b00c4e154380.png" Reference="a_CJ5tDaqkqqttVxKlDQIw/KxR6JVqhNUCn541qNwlUag" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Wikipedia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" ContentHash="8lGhi8jmu0OANRf5iCJkgg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADdSURBVDhPpZMBDYQwDEWZCiQgAgVIQQIGcDALGJiNGcAAMtjl7e6TboRLAJIG1nWvv5+saX7Pvu/pTujco8MFpE7ejfeAGGPq+x45yXufk8MwHOtt2/I+wfeyLKlt21yzrutXARvOuRRCyADWXdcVQHLqCuxQoA+K7IY6AZ3nucgLXAAYBdm8lUMFobUa2XVhIpu2YBzHrMI2mabpGoBcvMAcAQEgW0DrxQlAIJkuwJiV+clxEEBdfwLQDRUaRX8Ig60/lwAC2dZpOtfm/QXIAxv17AfgzX14dSN17gNzNVPv1Lf+SwAAAABJRU5ErkJggg==" InformativeScreenshot="0f259f9e63123772dfc1fa31df1157b7.jpg" Reference="a_CJ5tDaqkqqttVxKlDQIw/ozYVuqS9H0O6mkheUI7IHQ" Selector="&lt;html app='chrome.exe' title='Wikipedia' /&gt;" Url="https://www.wikipedia.org/" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+    <Sequence sap:VirtualizedContainerService.HintSize="518,690.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="nomArticle" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome BBC News - Breaking news, video and th" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,498.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="4d15e17f-7188-4197-8b8d-bdf87a8f27a7" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="450,247.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_9">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NGetText DisplayName="Get Text 'Everyone is emotional, …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,184.66666666666666" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="4d15e17f-7188-4197-8b8d-bdf87a8f27a7" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="bbc.com/news" ContentHash="QmXizAFu8UuLLk9B4OPj9g" DesignTimeRectangle="35, 374, 445, 240" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H2' /&gt;" Guid="9f7c5c64-b764-4462-a741-4da70539bfec" InformativeScreenshot="dd3bbd75d82e6ca682e8015a9ea73eb3.png" Reference="a_CJ5tDaqkqqttVxKlDQIw/x-YLRZSqnEac5iapExHS7A" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='33515' title='BBC News - Breaking news, video and the latest top stories from the U.S. and around the world' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NGetText.Target>
+                <uix:NGetText.TextString>
+                  <OutArgument x:TypeArguments="x:String">
+                    <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">nomArticle</CSharpReference>
+                  </OutArgument>
+                </uix:NGetText.TextString>
+              </uix:NGetText>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" ContentHash="9BDgqwYKv0y_Y5_yzLAjeQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABlSURBVDhP7Y/BCQAhDATTX2rQj0VYRjqwAEsMwh4bTh/3O/TpwkKySQYi2JR8g7+6gBcwxoCZIecc7r2jtYaUUpg1sznnLm8WwN2hqhCRcK0VpZTVs2Y2e+7y5hxg+4UdXcABwAOEH51alkIu6QAAAABJRU5ErkJggg==" InformativeScreenshot="0229a639b397d042eea84a1642555096.jpg" Reference="a_CJ5tDaqkqqttVxKlDQIw/omQbpsjTMkmK-ivBSdKd7w" Selector="&lt;html app='chrome.exe' htmlwindowname='33515' title='BBC News - Breaking news, video and the latest top stories from the U.S. and around the world' /&gt;" Url="https://www.bbc.com/news" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,109.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+        <ui:MessageBox.Text>
+          <InArgument x:TypeArguments="x:Object">
+            <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">nomArticle</CSharpValue>
+          </InArgument>
+        </ui:MessageBox.Text>
+      </ui:MessageBox>
+    </Sequence>
+  </Sequence>
+</Activity>
