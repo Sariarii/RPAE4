@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Idfq58souUKBpPhdCq71cg" Reference="Z8S45l-2j0WSW_DR-CdCTg/zqDXFGP23US7McGB5wt_tw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="formsmarts.com/html-form-example" CVScreenId="b246cd12-73df-43c6-ada7-9e3f5a4aba94" CvElementArea="497, 703, 599, 199" CvType="InputBox" DesignTimeRectangle="497, 593, 599, 199" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='u_c63_4609' tag='TEXTAREA' type='' class='u-full-width' placeholder='Your comment' /&gt;" Guid="d43d4bff-e252-4265-86e8-cb930cbbc37f" ImageBase64="" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="203, 597, 292, 47" ElementType="Text" FuzzyAccuracy="0.83" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl class='textarea-w' tag='LABEL' type='' aaname='Inquiry ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Inquiry *' /&gt;" Guid="2008f3e6-534d-4ba3-8a8e-4ab9061bc00e" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ed29bacd4b00b15aab9d993cdaa211f6.png" xmlns="">01pqgQ9T7wUy_cDIwgOk71w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F0PlFU4TD0yqxF4Ve2Mpog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="formsmarts.com/html-form-example" CVScreenId="318d9b85-e113-4cf4-b4af-3b24e3e0f884" DesignTimeRectangle="444, 869, 225, 57" ElementType="Button" FullSelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' /&gt;&lt;webctrl name='s' tag='INPUT' type='submit' /&gt;" Guid="51a4e0ae-00b9-4c11-81d1-aaa45e6f7a55" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="e6dcf3027a6e603dfb5d01fa508e963c.png" xmlns="">0q3lvbLM2M0mLQUoT1fSvNw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-BRcjNVMXUyapN8UBkBulw" Reference="Z8S45l-2j0WSW_DR-CdCTg/uPDP7CF0u0aK8XP11JK1Zw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="formsmarts.com/html-form-example" CVScreenId="8c8f98d8-557a-485a-a83f-4542dee0db3a" DesignTimeRectangle="430, 613, 594, 57" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' /&gt;&lt;webctrl type='email' placeholder='Your email address' aaname='Email *' /&gt;" Guid="2951eda3-34c9-47e0-844d-dfa3c22e1269" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8c8f98d8-557a-485a-a83f-4542dee0db3a" DesignTimeRectangle="132, 616, 292, 47" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' /&gt;&lt;webctrl aaname='Email ' check:innerText='Email *' /&gt;" Guid="f986bc45-2251-4711-98c0-6d405ed59c09" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a51613d6ec4a25bf1cb450c405ac7e56.png" xmlns="">0wz3tIS3g-0KEErmWqYnXNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

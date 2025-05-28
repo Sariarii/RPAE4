@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Le formulaire a été cor…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "3lQsLX7VVk--2QYbVdiL9g",
+  "Reference": "Z8S45l-2j0WSW_DR-CdCTg/3lQsLX7VVk--2QYbVdiL9g",
+  "ParentRef": "Z8S45l-2j0WSW_DR-CdCTg/mGQXrX83JUmB48dIEadrow",
+  "Created": "2025-05-27T12:26:49.9257754Z",
+  "Updated": "2025-05-27T12:26:49.9257754Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

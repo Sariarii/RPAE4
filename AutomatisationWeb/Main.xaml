@@ -1,0 +1,269 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="644,2458" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="518,2435.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,2352.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="2440c1ff-89f3-47ef-a790-5ae133f971af">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="450,2110.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="textConfirmation" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'First Name *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="2440c1ff-89f3-47ef-a790-5ae133f971af" Text="Nicolas" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="formsmarts.com/html-form-example" CVScreenId="308c72f0-cb18-4692-b394-e84714dd4d88" ContentHash="jfWX2lMp6USf2CTYsBHgLw" DesignTimeRectangle="501, 312, 594, 57" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl id='u_c63_4607' aaname='First Name *' /&gt;" Guid="ed7cf72d-a6f0-446e-89c7-632f34d29d15" ImageBase64="" InformativeScreenshot="8db2fb61960762071701203a28216a7c.png" IsResponsive="True" Reference="Z8S45l-2j0WSW_DR-CdCTg/UXBJKGEwOU-Yg5c1bKTv8w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="81771e9b-050d-44eb-9367-493dd3f4aad0" DesignTimeRectangle="203, 315, 292, 47" ElementType="Text" FuzzyAccuracy="0.84" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' /&gt;&lt;webctrl tag='LABEL' check:innerText='First Name *' /&gt;" Guid="d9707e86-9626-49e6-9935-682067dce22d" ImageBase64="" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Last Name *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="2440c1ff-89f3-47ef-a790-5ae133f971af" Text="THOMAS" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="formsmarts.com/html-form-example" CVScreenId="bb250af8-5c6b-498d-9618-8531d053cccd" ContentHash="IFz3l9UiPEm8iiNb3F2doA" DesignTimeRectangle="501, 384, 594, 57" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl id='u_c63_338354' tag='INPUT' type='text' class=' u-full-width' placeholder='Your last name' aaname='Last Name *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="3a682795-58ba-437a-aaf0-d6da45b8cdd8" ImageBase64="" InformativeScreenshot="b67c942834108ebf4b1693bb6a0130ef.png" IsResponsive="True" Reference="Z8S45l-2j0WSW_DR-CdCTg/jQLceKet9UWeRCGPRSzSLQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="bb250af8-5c6b-498d-9618-8531d053cccd" DesignTimeRectangle="203, 387, 292, 47" ElementType="Text" FuzzyAccuracy="0.79" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl aaname='Last Name ' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Last Name *' /&gt;" Guid="3954047a-2954-4b93-81d6-01967a355b57" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="2440c1ff-89f3-47ef-a790-5ae133f971af" Text="nicolas.thomas@hotmail.fr" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="formsmarts.com/html-form-example" CVScreenId="8c8f98d8-557a-485a-a83f-4542dee0db3a" ContentHash="-BRcjNVMXUyapN8UBkBulw" DesignTimeRectangle="430, 613, 594, 57" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' /&gt;&lt;webctrl type='email' placeholder='Your email address' aaname='Email *' /&gt;" Guid="2951eda3-34c9-47e0-844d-dfa3c22e1269" InformativeScreenshot="a51613d6ec4a25bf1cb450c405ac7e56.png" IsResponsive="True" Reference="Z8S45l-2j0WSW_DR-CdCTg/uPDP7CF0u0aK8XP11JK1Zw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="8c8f98d8-557a-485a-a83f-4542dee0db3a" DesignTimeRectangle="132, 616, 292, 47" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' /&gt;&lt;webctrl aaname='Email ' check:innerText='Email *' /&gt;" Guid="f986bc45-2251-4711-98c0-6d405ed59c09" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NSelectItem DisplayName="Select Item 'Subject of Your Inquiry…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="Sales Inquiry" ScopeIdentifier="2440c1ff-89f3-47ef-a790-5ae133f971af" Version="V4">
+                <uix:NSelectItem.Items>
+                  <scg:List x:TypeArguments="x:String" Capacity="4">
+                    <x:String>Sélectionnez une option :</x:String>
+                    <x:String>Sales Inquiry</x:String>
+                    <x:String>Support Inquiry</x:String>
+                    <x:String>Website Feedback</x:String>
+                  </scg:List>
+                </uix:NSelectItem.Items>
+                <uix:NSelectItem.Target>
+                  <uix:TargetAnchorable BrowserURL="formsmarts.com/html-form-example" CVScreenId="b246cd12-73df-43c6-ada7-9e3f5a4aba94" ContentHash="7ioTejCNW0-2AYYHz4tjMA" CvElementArea="498, 632, 600, 61" CvType="InputBox" DesignTimeRectangle="501, 634, 594, 57" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl id='u_c63_338367' tag='SELECT' type='' class='' aaname='Subject of Your Inquiry *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="ba2fb557-a147-468a-9a88-a76c02553a8d" InformativeScreenshot="9d358d48c1ab2f7386be2a5ab0cbb2c5.png" Reference="Z8S45l-2j0WSW_DR-CdCTg/rGlAOlQWQ0acW2_LWdA4tA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="b246cd12-73df-43c6-ada7-9e3f5a4aba94" DesignTimeRectangle="203, 637, 292, 47" ElementType="Text" FuzzyAccuracy="0.75" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl aaname='Subject of Your Inquiry ' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Subject of Your Inquiry *' /&gt;" Guid="e2e932c3-30fc-4b38-a8fd-dd6c59685a07" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSelectItem.Target>
+              </uix:NSelectItem>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Inquiry *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="2440c1ff-89f3-47ef-a790-5ae133f971af" Text="Voici mon commentaire" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="formsmarts.com/html-form-example" CVScreenId="b246cd12-73df-43c6-ada7-9e3f5a4aba94" ContentHash="Idfq58souUKBpPhdCq71cg" CvElementArea="497, 703, 599, 199" CvType="InputBox" DesignTimeRectangle="497, 593, 599, 199" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='u_c63_4609' tag='TEXTAREA' type='' class='u-full-width' placeholder='Your comment' /&gt;" Guid="d43d4bff-e252-4265-86e8-cb930cbbc37f" ImageBase64="" InformativeScreenshot="ed29bacd4b00b15aab9d993cdaa211f6.png" IsResponsive="True" Reference="Z8S45l-2j0WSW_DR-CdCTg/zqDXFGP23US7McGB5wt_tw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="203, 597, 292, 47" ElementType="Text" FuzzyAccuracy="0.83" FuzzySelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl class='textarea-w' tag='LABEL' type='' aaname='Inquiry ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Inquiry *' /&gt;" Guid="2008f3e6-534d-4ba3-8a8e-4ab9061bc00e" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continuer →'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2440c1ff-89f3-47ef-a790-5ae133f971af" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="formsmarts.com/html-form-example" ContentHash="6nrjnOqKMUahvH7e5vUZgA" DesignTimeRectangle="503, 878, 225, 57" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="00de3bf3-ca72-4f82-851c-3b9e60622d94" ImageBase64="" InformativeScreenshot="d8f85576298dfefa3b4e95ca4e38961e.png" Reference="Z8S45l-2j0WSW_DR-CdCTg/aEZ4I0X5GkWpTh4ia1F5og" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Confirmer →'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2440c1ff-89f3-47ef-a790-5ae133f971af" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="formsmarts.com/html-form-example" CVScreenId="318d9b85-e113-4cf4-b4af-3b24e3e0f884" ContentHash="F0PlFU4TD0yqxF4Ve2Mpog" DesignTimeRectangle="444, 869, 225, 57" ElementType="Button" FullSelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' /&gt;&lt;webctrl name='s' tag='INPUT' type='submit' /&gt;" Guid="51a4e0ae-00b9-4c11-81d1-aaa45e6f7a55" InformativeScreenshot="e6dcf3027a6e603dfb5d01fa508e963c.png" Reference="Z8S45l-2j0WSW_DR-CdCTg/4JD1U_01G0eMJ3eG6G7zLA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NGetText DisplayName="Get Text 'Le formulaire a été cor…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="2440c1ff-89f3-47ef-a790-5ae133f971af" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="formsmarts.com/html-form-example" CVScreenId="d5428b0c-c553-47b5-956b-69ec4de05db7" ContentHash="_7cVZjlln0uCJCbRAc8jag" DesignTimeRectangle="203, 163, 900, 36" ElementType="Text" FullSelectorArgument="&lt;webctrl src='https://formsmarts.com/form/yx?mode=h5embed&amp;amp;lay=1' tag='IFRAME' /&gt;&lt;webctrl tag='P' /&gt;" Guid="19036c23-c7fc-4bd2-9724-6080a9aa32f8" ImageBase64="" InformativeScreenshot="1a4c1f5c3d4062b890f65f1bd006d7e1.png" Reference="Z8S45l-2j0WSW_DR-CdCTg/3lQsLX7VVk--2QYbVdiL9g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NGetText.Target>
+                <uix:NGetText.TextString>
+                  <OutArgument x:TypeArguments="x:String">
+                    <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">textConfirmation</CSharpReference>
+                  </OutArgument>
+                </uix:NGetText.TextString>
+              </uix:NGetText>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,112" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+                <ui:MessageBox.Text>
+                  <InArgument x:TypeArguments="x:Object">
+                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">textConfirmation</CSharpValue>
+                  </InArgument>
+                </ui:MessageBox.Text>
+              </ui:MessageBox>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" ContentHash="56VV-uHfKkWQuef8IHEQVw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQ4SURBVFhHxZdbSBxXGMe3rooiClIq4gWktlgUq4L6EMQgCl7wqdb6YC1dvMSWttQnL3RFiYJJH6qNENsoRUy8rGyXNq3QTYKb1RLRmhqtl+quUWzdaLNppJrouuu/fAdmPDMbZ5tY9AcfOPOdy2+PM985o8LJ8RTALQDnAKgBvEShkrc6Ie4AeOU0BQiSUJ+mAFEiEdDfuY/zuru4aLiHC98eHU2DdzEyZ+O7MmZnZ9Ha2orKykoWbW1tWFhYkDfj+VEicO7yCCJKr+H1Dwfw2gdHR2RZL1qvz4j9dnd30d/fj7S0NPj4+EClUrGgvzMyMqDX67G/v89PJWCTCLzXNoxQzdX/FLRKhNPphFarhbe3N5s0JiYGubm5yM7ORlhYGLunVqvR2NjITyWwJRHQXLrtNtFR0Tz4K+vT1dUl/uqqqiq25LQiOzs7mJqaQmFhIcsFBARgYGCAn45QFnjzUz0ytD/g7GfXJXGm9ntcMc5jc3MTWVlZbILy8nI2sRy73Y709HTWJjMzk60Yh7IA/Z8fPH6C9Uc7+NN+GH883MbWEwcmJiYQHBzMlnh0dJQfSkJnZycTiIyMxNjYGBwOh5BSFvjm1u982g2j0cgGjoiIwOLiojwtYrFYkJeXh6KiIoyPj2Nvb09IKQt8bZzn026YzWb4+voiMDAQ09PT8rQE+tUUBwcH/G1lAU8rsLy8jISEBLYK9fX1cLlc8iaeUBbovLEAEnY4XXDsc+F0sftEbW0tEwgKCkJTUxNWVlb4IT2hLHCm5ju88/lNvH3xMN66cIPdW1rfYn3oTcjPzxeLD9UBjUaDnp4erK6u8sM/E0UBpZhY+kvsRxINDQ0IDw8XRejNiIqKQklJCYaHh/lpJLywwKT1UEDAZrOhu7ubTUqTe3l5iSW5rq6OFSc5igKvVvYj7pNBScR+PIg3PtLh3n0731UCPelra2usSqampoqrQs+LHEUBbe8vGJ1/gNuzNph+WxeDrv95KhYTRTY2NliVJIHQ0FCYTCZJXlHgmtnCp18YKsfx8fFMoqamRpJTFPBUiOx/b2F7e1te392g+lBdXc0ECgoKJLljCdDmEhsbi76+PnnKjZaWFiZAryzPsQSSkpLYoBUVFfwG4wYdRkpLS1nbsrIySe5YAlT5aFB6/ycnJ+VpEdqM6AGkth0dHZLcsQTm5uYQHR3NBqZzwczM4TFNgPaLnJwc1iYlJYW9FTwSgfe/ND2XAEGFh047NEFcXBw7nul0OhgMBjQ3NyMxMZHlQkJCMDQ0JO/OBMTN+d0vpGfCr37yLEDQQ0h7gFBw/Pz84O/vL14nJyezs8OzIIER4YKKTq/ZAt3PVlw1LWFx/bG0tQJWqxXt7e0oLi5mRzA6IVNJpmpIJfooSIC+1U4NEqAPRfpMOhVIgL5SXwZgkCdPAkFAiEIAPQCUz2L/I/8CNeF0A8D7xuQAAAAASUVORK5CYII=" InformativeScreenshot="e3267ea1b9becf767648d06790006be1.jpg" Reference="Z8S45l-2j0WSW_DR-CdCTg/mGQXrX83JUmB48dIEadrow" Selector="&lt;html app='chrome.exe' title='Web Form Example' /&gt;" Url="https://formsmarts.com/html-form-example" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

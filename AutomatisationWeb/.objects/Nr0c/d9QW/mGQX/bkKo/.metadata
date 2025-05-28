@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Subject of Your Inquiry…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "bkKo3nI3Vk6p0Ou9EO3GRA",
+  "Reference": "Z8S45l-2j0WSW_DR-CdCTg/bkKo3nI3Vk6p0Ou9EO3GRA",
+  "ParentRef": "Z8S45l-2j0WSW_DR-CdCTg/mGQXrX83JUmB48dIEadrow",
+  "Created": "2025-05-27T12:19:38.7322687Z",
+  "Updated": "2025-05-27T12:19:38.7322687Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
