@@ -2,10 +2,11 @@
   "name": "AutomatisationGlobale",
   "projectId": "61a13871-17c5-4e57-9ea9-45a10a52a344",
   "description": "Processus vierge",
-  "main": "Workflows\\Main.xaml",
+  "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[3.0.1]",
-    "UiPath.System.Activities": "[25.4.2]"
+    "UiPath.Mail.Activities": "[2.2.0-preview]",
+    "UiPath.System.Activities": "[25.4.4]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -46,8 +47,8 @@
   "expressionLanguage": "CSharp",
   "entryPoints": [
     {
-      "filePath": "Workflows\\Main.xaml",
-      "uniqueId": "21df68f4-28c0-4abe-bafb-ecdd1f63a6c1",
+      "filePath": "Main.xaml",
+      "uniqueId": "23ababe0-8679-4e0e-bd4b-177e45c058ca",
       "input": [],
       "output": []
     }

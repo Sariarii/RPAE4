@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LDQi6A/wzIA=",
+  "dgSpecHash": "7t0/tAfw4JE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Niico\\Desktop\\COURS ESTIAM\\RPA\\UiPath\\GestionConference\\.local\\",
+  "projectFilePath": "C:\\Users\\Niico\\OneDrive\\Bureau\\COURS ESTIAM\\RPA\\RPAE4\\GestionConference\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Niico\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",
     "C:\\Users\\Niico\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",

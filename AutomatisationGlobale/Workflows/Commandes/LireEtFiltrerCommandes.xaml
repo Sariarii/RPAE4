@@ -1,15 +1,10 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="LireEtFiltrerCommandes" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:this="clr-namespace:" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="LireEtFiltrerCommandes" this:LireEtFiltrerCommandes.mois="1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:this="clr-namespace:" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="dataTableFinal" Type="InOutArgument(sd:DataTable)" />
     <x:Property Name="resultatCommandes" Type="InArgument(x:String)" />
     <x:Property Name="dataTableCommandes" Type="InArgument(sd:DataTable)" />
     <x:Property Name="mois" Type="InArgument(x:Int32)" />
   </x:Members>
-  <this:LireEtFiltrerCommandes.mois>
-    <InArgument x:TypeArguments="x:Int32">
-      <Literal x:TypeArguments="x:Int32" Value="1" />
-    </InArgument>
-  </this:LireEtFiltrerCommandes.mois>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
@@ -102,7 +97,7 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="LireEtFiltrerCommandes" sap:VirtualizedContainerService.HintSize="646.6666666666666,1970" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="LireEtFiltrerCommandes" sap:VirtualizedContainerService.HintSize="666.6666666666666,1970" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -211,7 +206,7 @@
               </ueab:ExcelApplicationCard.Body>
               <ueab:ExcelApplicationCard.WorkbookPath>
                 <InArgument x:TypeArguments="x:String">
-                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">"C:\\Users\\Niico\\Desktop\\COURS ESTIAM\\RPA\\Exercices\\Annexes exercice 15\\Commandes " + moisCourant + ".xlsx"</CSharpValue>
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">"C:\\Users\\Niico\\OneDrive\\Bureau\\COURS ESTIAM\\RPA\\Annexes exercice 15\\Commandes " + moisCourant + ".xlsx"</CSharpValue>
                 </InArgument>
               </ueab:ExcelApplicationCard.WorkbookPath>
             </ueab:ExcelApplicationCard>

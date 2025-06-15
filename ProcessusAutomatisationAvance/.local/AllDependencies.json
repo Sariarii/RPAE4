@@ -18970,18 +18970,20 @@
   },
   "packageFolders": {
     "C:\\Users\\Niico\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "ProcessusAutomatisationAvance",
       "projectName": "ProcessusAutomatisationAvance",
-      "projectPath": "C:\\Users\\Niico\\Documents\\UiPath\\ProcessusAutomatisationAvance\\.local",
+      "projectPath": "C:\\Users\\Niico\\OneDrive\\Bureau\\COURS ESTIAM\\RPA\\RPAE4\\ProcessusAutomatisationAvance\\.local",
       "packagesPath": "C:\\Users\\Niico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Niico\\Documents\\UiPath\\ProcessusAutomatisationAvance\\.local",
+      "outputPath": "C:\\Users\\Niico\\OneDrive\\Bureau\\COURS ESTIAM\\RPA\\RPAE4\\ProcessusAutomatisationAvance\\.local",
       "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "restoreAuditProperties": {
         "enableAudit": "False"
